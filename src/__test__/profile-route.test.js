@@ -75,7 +75,6 @@ describe('POST /profile', () => {
         })
         .then((response) => {
           expect(response.status).toEqual(200);
-          // expect(response.body.token).toBeTruthy();
         });
     });
 
